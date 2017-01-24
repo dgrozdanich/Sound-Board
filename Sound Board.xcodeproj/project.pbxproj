@@ -15,6 +15,7 @@
 		E09502621E35A62800ED36D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09502601E35A62800ED36D1 /* LaunchScreen.storyboard */; };
 		E095026D1E35A62800ED36D1 /* Sound_BoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095026C1E35A62800ED36D1 /* Sound_BoardTests.swift */; };
 		E09502781E35A62800ED36D1 /* Sound_BoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09502771E35A62800ED36D1 /* Sound_BoardUITests.swift */; };
+		E09FC5131E36D6EA00C02D25 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09FC5121E36D6EA00C02D25 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E09502731E35A62800ED36D1 /* Sound BoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sound BoardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09502771E35A62800ED36D1 /* Sound_BoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound_BoardUITests.swift; sourceTree = "<group>"; };
 		E09502791E35A62800ED36D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09FC5121E36D6EA00C02D25 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				E09502541E35A62800ED36D1 /* AppDelegate.swift */,
 				E09502561E35A62800ED36D1 /* ViewController.swift */,
+				E09FC5121E36D6EA00C02D25 /* SoundViewController.swift */,
 				E09502581E35A62800ED36D1 /* Main.storyboard */,
 				E095025E1E35A62800ED36D1 /* Assets.xcassets */,
 				E09502601E35A62800ED36D1 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09FC5131E36D6EA00C02D25 /* SoundViewController.swift in Sources */,
 				E095025D1E35A62800ED36D1 /* Sound_Board.xcdatamodeld in Sources */,
 				E09502571E35A62800ED36D1 /* ViewController.swift in Sources */,
 				E09502551E35A62800ED36D1 /* AppDelegate.swift in Sources */,
@@ -509,6 +513,7 @@
 				E095027E1E35A62800ED36D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E095027F1E35A62800ED36D1 /* Build configuration list for PBXNativeTarget "Sound BoardTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				E09502811E35A62800ED36D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E09502821E35A62800ED36D1 /* Build configuration list for PBXNativeTarget "Sound BoardUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				E09502841E35A62800ED36D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

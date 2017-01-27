@@ -118,6 +118,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="addButton" destination="Xal-bK-c0h" id="1eO-PQ-vYJ"/>
+                        <outlet property="playButton" destination="019-sb-vGz" id="hcq-Hg-qNk"/>
                         <outlet property="recordButton" destination="M90-sW-chT" id="dxv-Zg-noz"/>
                         <outlet property="textField" destination="0Z6-CN-Irl" id="ZkO-yM-5Vu"/>
                     </connections>
